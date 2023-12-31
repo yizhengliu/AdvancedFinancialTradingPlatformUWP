@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="FinancialTradingPlatformUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinancialTradingPlatformUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btnFastLocalOperation" Content="Fast Local Operation" Margin="197,255,0,0" VerticalAlignment="Top" Height="125" Width="234" Click="btnFastLocalOperation_Click"/>
+        <Button x:Name="btnCPUBoundOperations" Content="CPU-bound Operations" Margin="197,500,0,0" Height="117" Width="235" Click="btnCPUBoundOperations_Click" VerticalAlignment="Top"/>
+        <ListView x:Name="lvwOutput" Margin="702,0,0,0"/>
+
+    </Grid>
+</Page>
